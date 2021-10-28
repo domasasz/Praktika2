@@ -1,0 +1,222 @@
+/* general */
+
+a{
+    text-decoration: none;
+}
+
+/* header */
+
+.header-bg-img{
+    background-image: url("/IMG/cigar.webp");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+.header-bg-color{
+    background-color: rgba(202, 124, 75, 0.3);
+    height: 600px;
+}
+.content{
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-right: 15em;
+    padding-top: 1em;  
+}
+.symbol{
+    font-size: 5em;
+    color: white;
+    padding-left: 13em;
+    padding-bottom: -3em;
+}
+.name{
+        font-size: 62px;
+        font-weight: 100;
+        color: white;
+        text-transform: uppercase;
+        font-style: italic;
+        text-decoration: none;
+        line-height: 3.4em;
+        letter-spacing: 2.7px;
+        padding-left: 20em;
+}
+.button{
+    text-align: center;
+    margin-left: 45em;
+    margin-top: 6.5em;
+    border: 2px solid gray;
+    text-align: center;
+    padding: 1em 3em;
+    font-size: large;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(146, 121, 91);
+    border-radius: 8px;
+
+}
+/* NAV */
+
+nav{
+    background-size: cover ;
+    height: 200px;
+    border: 1px solid;
+    background-color: rgb(152, 148, 136);
+}
+
+li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+ul{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    word-spacing: 1cm;
+    padding-right: 5em ;   
+}
+
+nav p{
+    text-align: center;
+    word-spacing: 2em;
+    color: white;
+    font-size: 3em;
+    padding-right: 1em;
+    word-spacing: 2cm;
+    
+}
+li i{
+    font-size: 5em;
+    size: 20em;
+    padding-right: 5em;
+}
+.nav-name{
+    font-size: 20px;
+  
+}
+
+/* MAIN */
+
+.turinys{
+    text-align: left;
+    margin: 0 auto;
+    width: 700px;
+   
+}
+.main-pic{
+    width: 700px;
+    border-radius: 10px;
+}
+.main-button{
+    width: 2.5cm;
+    height: 1cm;
+    background-color: rgb(202, 124, 75);
+    color: rgb(219,233,244);
+    font-size: 15px;
+    border-radius: 8px;
+}
+.turinys-main{
+    background-color: rgba(202, 124, 75, 0.4);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+/* FOOTER */
+
+footer{
+    background-size: cover ;
+    height: 120px;
+    border: 1px solid;
+    background-color: rgb(152, 148, 136);
+    padding-top: 2em;
+  
+}
+
+.footer section ul li{
+    word-spacing: normal;
+    font-size: 18px;
+    display: inline;
+}
+.kaunas{
+    padding-right: 4em;
+
+}
+@media (max-width: 1600px){
+
+    .header-text{
+        position: absolute;
+    }
+    .button{
+        position: relative;
+        top: 400px;
+        left: -380px;
+       
+    }
+    h1{
+        position: absolute;
+        top: 50px;
+        left: -600px;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 1200px){
+
+
+    .header-bg-img{
+        position:static;
+    }
+
+    .button{
+        position: relative;
+        top: 400px;
+        left: -380px;
+       
+    }
+
+
+    h1{
+        position: absolute;
+        top: 50px;
+        left: -600px;
+    }
+
+
+}
+
+
+@media (max-width: 992px){
+
+    .header-text{
+        position: relative;
+    }
+    .button{
+        position: relative;
+        top: 300px;
+        left: -450px;
+       
+    }
+    h1{
+        position: absolute;
+        top: 50px;
+        left: -600px;
+    }
+
+
+}
+
+
+
+
